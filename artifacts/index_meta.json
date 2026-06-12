@@ -1,0 +1,8 @@
+{
+  "retriever": "tfidf-char-ngram",
+  "chunk_count": 3,
+  "sources": [
+    "data\\docs\\minimind_notes.md",
+    "data\\docs\\rag_notes.md"
+  ]
+}
