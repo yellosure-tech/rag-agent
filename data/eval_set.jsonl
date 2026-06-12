@@ -1,0 +1,50 @@
+{"question":"MiniMind 是什么项目？","expected_route":"search_docs","expected_source":"minimind_notes.md"}
+{"question":"MiniMind 覆盖哪些训练阶段？","expected_route":"search_docs","expected_source":"minimind_notes.md"}
+{"question":"MiniMind 的模型结构是什么？","expected_route":"search_docs","expected_source":"minimind_notes.md"}
+{"question":"RoPE 在 MiniMind 中有什么作用？","expected_route":"search_docs","expected_source":"minimind_notes.md"}
+{"question":"GQA 注意力机制属于哪个模块？","expected_route":"search_docs","expected_source":"minimind_notes.md"}
+{"question":"SwiGLU FFN 是什么模块？","expected_route":"search_docs","expected_source":"minimind_notes.md"}
+{"question":"RMSNorm 在模型中用于什么？","expected_route":"search_docs","expected_source":"minimind_notes.md"}
+{"question":"KV-Cache 能减少什么计算？","expected_route":"search_docs","expected_source":"minimind_notes.md"}
+{"question":"预训练阶段的训练目标是什么？","expected_route":"search_docs","expected_source":"minimind_notes.md"}
+{"question":"SFT 阶段如何构造 prompt？","expected_route":"search_docs","expected_source":"minimind_notes.md"}
+{"question":"SFT 为什么需要 loss mask？","expected_route":"search_docs","expected_source":"minimind_notes.md"}
+{"question":"DPO 使用什么样的偏好样本？","expected_route":"search_docs","expected_source":"minimind_notes.md"}
+{"question":"policy model 更偏向什么回答？","expected_route":"search_docs","expected_source":"minimind_notes.md"}
+{"question":"tiny 实验保存了什么 checkpoint？","expected_route":"search_docs","expected_source":"minimind_notes.md"}
+{"question":"pretrain loss 从多少降到多少？","expected_route":"search_docs","expected_source":"minimind_notes.md"}
+{"question":"SFT loss 从多少降到多少？","expected_route":"search_docs","expected_source":"minimind_notes.md"}
+{"question":"总结 MiniMind 的训练链路","expected_route":"summarize_doc","expected_source":"minimind_notes.md"}
+{"question":"概括 MiniMind 的模型结构","expected_route":"summarize_doc","expected_source":"minimind_notes.md"}
+{"question":"归纳 MiniMind tiny 实验记录","expected_route":"summarize_doc","expected_source":"minimind_notes.md"}
+{"question":"梳理 SFT 和 DPO 的区别","expected_route":"summarize_doc","expected_source":"minimind_notes.md"}
+{"question":"RAG 是什么？","expected_route":"search_docs","expected_source":"rag_notes.md"}
+{"question":"RAG 为什么可以减少幻觉？","expected_route":"search_docs","expected_source":"rag_notes.md"}
+{"question":"一个最小 RAG 系统包含哪些流程？","expected_route":"search_docs","expected_source":"rag_notes.md"}
+{"question":"文档切分为什么需要 overlap？","expected_route":"search_docs","expected_source":"rag_notes.md"}
+{"question":"检索阶段通常返回什么？","expected_route":"search_docs","expected_source":"rag_notes.md"}
+{"question":"回答中为什么要附带来源引用？","expected_route":"search_docs","expected_source":"rag_notes.md"}
+{"question":"Tool Use Agent 如何选择工具？","expected_route":"search_docs","expected_source":"rag_notes.md"}
+{"question":"search_docs 工具用于什么问题？","expected_route":"search_docs","expected_source":"rag_notes.md"}
+{"question":"calculator 工具适合什么问题？","expected_route":"search_docs","expected_source":"rag_notes.md"}
+{"question":"summarize_doc 工具适合什么问题？","expected_route":"search_docs","expected_source":"rag_notes.md"}
+{"question":"工具调用失败时要记录什么？","expected_route":"search_docs","expected_source":"rag_notes.md"}
+{"question":"RAG 项目如何评测？","expected_route":"search_docs","expected_source":"rag_notes.md"}
+{"question":"常见评估维度包括哪些？","expected_route":"search_docs","expected_source":"rag_notes.md"}
+{"question":"总结 RAG 的基本流程","expected_route":"summarize_doc","expected_source":"rag_notes.md"}
+{"question":"概括 Agent 工具调用方法","expected_route":"summarize_doc","expected_source":"rag_notes.md"}
+{"question":"归纳 RAG 项目的评测方法","expected_route":"summarize_doc","expected_source":"rag_notes.md"}
+{"question":"梳理检索增强生成的作用","expected_route":"summarize_doc","expected_source":"rag_notes.md"}
+{"question":"计算 3000000000 / 65536","expected_route":"calculator","expected_source":null}
+{"question":"计算 8.75 - 1.67","expected_route":"calculator","expected_source":null}
+{"question":"计算 4.40 - 0.058","expected_route":"calculator","expected_source":null}
+{"question":"计算 128 * 512","expected_route":"calculator","expected_source":null}
+{"question":"计算 16 * 8 * 512","expected_route":"calculator","expected_source":null}
+{"question":"计算 50 / 4","expected_route":"calculator","expected_source":null}
+{"question":"计算 92 / 100","expected_route":"calculator","expected_source":null}
+{"question":"计算 512 + 128","expected_route":"calculator","expected_source":null}
+{"question":"3000000000 除以 10000 等于多少？","expected_route":"calculator","expected_source":null}
+{"question":"如果每 step 65536 tokens，3B tokens 需要多久 steps？","expected_route":"calculator","expected_source":null}
+{"question":"top-k 检索返回 5 个片段，3 次查询共多少片段？","expected_route":"calculator","expected_source":null}
+{"question":"chunk size 从 256 调到 512 增加了多少？","expected_route":"calculator","expected_source":null}
+{"question":"overlap 120 占 chunk size 512 的比例是多少？","expected_route":"calculator","expected_source":null}
