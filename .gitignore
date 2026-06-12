@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+artifacts/test_chunks.json
+artifacts/.*.tmp
+artifacts/bge_faiss.index
+artifacts/bge_embeddings.npy
