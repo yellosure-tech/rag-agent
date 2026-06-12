@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-06-12T12:09:28",
+  "retriever": "tfidf-char-ngram",
+  "eval_count": 50,
+  "top_k": 3,
+  "chunk_size": null,
+  "overlap": null,
+  "route_accuracy": 1.0,
+  "source_hit_at_k": 1.0,
+  "mean_reciprocal_rank": 1.0,
+  "mean_retrieval_latency_ms": 0.9960216230939369,
+  "source_total": 37,
+  "failures": []
+}
